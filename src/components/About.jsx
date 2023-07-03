@@ -1,9 +1,9 @@
 import React from "react";
-import aboutImg from "../assets/images/about.png";
+import hero from "../assets/images/hero.png";
 const About = () => {
   const info = [
-    { text: "Years experience", count: "04" },
-    { text: "Completed Projects", count: "24" },
+    { text: "Years experience", count: "01" },
+    { text: "Completed Projects", count: "12" },
     { text: "Companies Work", count: "06" },
   ];
   return (
@@ -17,10 +17,7 @@ const About = () => {
           <div className="p-2">
             <div className="text-gray-300 my-3">
               <p className="text-justify leading-7 w-11/12 mx-auto">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                eos, quam vel quisquam, explicabo sit labore dignissimos optio
-                ratione quibusdam doloribus pariatur consequuntur sint.
-                Reprehenderit cupiditate possimus facere quasi voluptatem?
+              Certainly! As a MERN developer, i specialize in web development using the MERN stack, which consists of MongoDB, Express.js, React.js, and Node.js. You have a strong foundation in both front-end and back-end technologies, allowing you to build dynamic and interactive web applications.
               </p>
               <div className="flex mt-10 items-center gap-7">
                 {info.map((content) => (
@@ -43,7 +40,7 @@ const About = () => {
           <div className="flex-1 md:mt-0 mt-6 flex justify-center items-center">
             <div className="lg:w-96 h-full relative sm:w-10/12 w-11/12 max-w-sm aboutImg ">
               <img
-                src={aboutImg}
+                src={hero}
                 alt=""
                 className="w-full object-cover bg-cyan-600 rounded-xl"
               />
