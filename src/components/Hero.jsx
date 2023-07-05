@@ -1,5 +1,7 @@
 import React from "react";
 import hero from "../assets/images/hero.png";
+import { FaGithubSquare, FaLinkedin, FaFacebookSquare } from "react-icons/fa";
+
 const Hero = () => {
   const social_media = [
     "logo-instagram",
@@ -29,14 +31,11 @@ const Hero = () => {
           </h4>
           <button className="btn-primary mt-8">Contact Me</button>
           <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">
-            {social_media?.map((icon) => (
-              <div
-                key={icon}
-                className="text-gray-600 hover:text-white cursor-pointer "
-              >
-                <ion-icon name={icon}></ion-icon>
-              </div>
-            ))}
+
+            <a href="https://github.com/saifulaija"  className="text-gray-600 hover:text-white cursor-pointer "> <FaGithubSquare></FaGithubSquare></a>
+            <a href="http://linkedin.com/in/saiful87"  className="text-gray-600 hover:text-white cursor-pointer "> <FaLinkedin></FaLinkedin></a>
+            <a href="https://www.facebook.com/"  className="text-gray-600 hover:text-white cursor-pointer "> <FaFacebookSquare></FaFacebookSquare></a>
+           
           </div>
         </div>
       </div>

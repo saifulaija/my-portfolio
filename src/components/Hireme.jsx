@@ -15,10 +15,7 @@ const Hireme = () => {
             Do you want any work from me?
           </h2>
           <p className="lg:text-left text-justify max-w-lg text-sm mt-4 text-gray-200 leading-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dicta
-            soluta quos tempore eos accusamus cupiditate, amet in similique
-            sapiente obcaecati odio deleniti architecto corporis ratione.
-            Consequatur a quidem maiores!
+          With extensive experience in building full-stack applications using the MERN stack, I possess in-depth knowledge of each component. From designing robust backend APIs using Node.js and Express.js to creating dynamic, interactive user interfaces with React.js, I am adept at delivering seamless end-to-end solutions. My expertise extends to MongoDB, allowing me to efficiently manage and integrate databases to enhance application performance.!
           </p>
           <button className="btn-primary mt-10">Say Hello</button>
         </div>
