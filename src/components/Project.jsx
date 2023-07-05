@@ -6,7 +6,7 @@ import project2 from "../assets/images/project2.png";
 import project3 from "../assets/images/project-3.jpg";
 import project4 from "../assets/images/project-4.jpg";
 import project5 from "../assets/images/project-5.png";
-import hero from "../assets/images/hero.png";
+import hero from "../assets/images/project.jpg";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
@@ -31,19 +31,8 @@ const Project = () => {
       github_link: "https://github.com/Sridhar-C-25/highking",
       live_link: "https://highking01.netlify.app",
     },
-    {
-      img: project4,
-      name: "React Nav",
-      github_link:
-        "https://github.com/Sridhar-C-25/reacttailwindnavbar-with-dropdown",
-      live_link: "https://reacttailwindnavbar.netlify.app",
-    },
-    {
-      img: project5,
-      name: "Vue Country",
-      github_link: "https://github.com/Sridhar-C-25",
-      live_link: "https://vuecountry05.netlify.app",
-    },
+   
+    
   ];
   return (
     <section id="projects" className="py-10 text-white">
@@ -100,7 +89,7 @@ const Project = () => {
           </Swiper>
         </div>
         <div className="lg:block hidden">
-          <img src={hero} alt="" />
+          <img className="rounded-lg" src={hero} alt="" />
         </div>
       </div>
     </section>
