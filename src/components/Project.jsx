@@ -27,7 +27,7 @@ const Project = () => {
     },
     {
       img: project3,
-      name: "Highking",
+      name: "Job Bazar",
       github_link: "https://github.com/saifulaija/job-bazar",
       live_link: "https://64a5800e13949d11a9e96b68--timely-bavarois-e37e00.netlify.app/",
     },

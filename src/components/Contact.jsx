@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
+import contact from '../assets/images/contact.jpg'
 
 const Contact = () => {
   const contact_info = [
@@ -68,20 +69,7 @@ const Contact = () => {
             <input type="submit" value="Send message"  className="btn-primary w-fit cursor-pointer" />
           </form>
           <div className="flex flex-col  gap-7 ">
-            {contact_info.map((contact, i) => (
-              <div
-                key={i}
-                className="flex flex-row  
-                  text-left gap-4 flex-wrap items-center"
-              >
-                <div className="min-w-[3.5rem]  text-3xl min-h-[3.5rem] flex items-center justify-center text-white bg-cyan-600 rounded-full">
-                  <ion-icon name={contact.logo}></ion-icon>
-                </div>
-                <p className="md:text-base text-sm  break-words">
-                  {contact.text}
-                </p>
-              </div>
-            ))}
+            <img className="max-h-[330px] rounded-lg drop-shadow-xl" src={contact} alt="" />
           </div>
         </div>
       </div>
