@@ -56,17 +56,18 @@ const Contact = () => {
             onSubmit={sendEmail}
             className="flex flex-col flex-1 gap-5"
           >
-            <input type="text" name="from_name" placeholder="Your Name" className="text-gray-800" />
+            <input type="text" required name="from_name" placeholder="Your Name" className="text-gray-800" />
 
             <input
               type="email"
               name="from_email"
               placeholder="Your Email Address"
               className="text-gray-800"
+              required
             />
            
             <textarea name="message" placeholder="Your Message" rows={10} className="text-gray-800" />
-            <input type="submit" value="Send message"  className="btn-primary w-fit cursor-pointer" />
+            <input required type="submit" value="Send message"  className="btn-primary w-fit cursor-pointer" />
           </form>
           <div className="flex flex-col  gap-7 ">
             <img className="max-h-[330px] rounded-lg drop-shadow-xl" src={contact} alt="" />
