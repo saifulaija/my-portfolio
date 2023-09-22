@@ -1,6 +1,6 @@
 import React from "react";
 import hero from "../assets/images/hero.png";
-import resume  from "../assets/resume.pdf"
+import resume  from "../assets/Resume Of Saiful Islam (4).pdf"
 const About = () => {
   const info = [
     { text: "Years experience", count: "01" },
@@ -43,7 +43,7 @@ const About = () => {
               <img
                 src={hero}
                 alt=""
-                className="w-full object-cover bg-cyan-600 rounded-xl"
+                className="w-full object-cover bg-cyan-800 rounded-xl"
               />
             </div>
           </div>
