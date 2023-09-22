@@ -51,7 +51,7 @@ const Project = () => {
         <p className="text-gray-400 mt-3 text-lg">My awesome works</p>
       </div>
       <br />
-      <div className="flex max-w-6xl gap-6 px-5 mx-auto items-center relative">
+      <div className=" gap-6 px-5 mx-auto container">
         <div className="lg:w-2/3 w-full">
           <Swiper
             slidesPerview={1.2}
@@ -96,9 +96,9 @@ const Project = () => {
             ))}
           </Swiper>
         </div>
-        <div className="lg:block hidden">
+        {/* <div className="lg:block hidden">
           <img className="rounded-lg" src={hero} alt="" />
-        </div>
+        </div> */}
       </div>
     </section>
   );
