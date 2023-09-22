@@ -248,11 +248,11 @@ const Contact = () => {
             </div>
             <div className="border-b-2 border-gray-600 pb-2 mb-4">
               <h2 className="text-2xl text-cyan-600">Contact me directly</h2>
-              <p>
+              <p className="text-center">
                 {" "}
                 <FaPhoneAlt className="inline-block" /> +8801874767969
               </p>
-              <p>
+              <p className="text-center">
                 <FaEnvelope className="inline-block" />{" "}
                 saifulislamweb87@gmail.com
               </p>
