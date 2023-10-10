@@ -107,8 +107,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-import project1 from "../assets/images/project1.png";
- import project2 from "../assets/images/project2.png";
+import project1 from "../assets/images/toys.png";
+ import project2 from "../assets/images/sport.png";
 import project3 from "../assets/images/project-3.png";
 import project4 from "../assets/images/final-job-swift.jpg";
 

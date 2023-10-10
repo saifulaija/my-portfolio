@@ -4,8 +4,8 @@ import resume  from "../assets/Resume Of Saiful Islam (4).pdf"
 const About = () => {
   const info = [
     { text: "Years experience", count: "01" },
-    { text: "Completed Projects", count: "12" },
-    { text: "Companies Work", count: "06" },
+    { text: "Completed Projects", count: "15" },
+    { text: "Companies Work", count: "00" },
   ];
   return (
     <section id="about" className="py-10 text-white">
