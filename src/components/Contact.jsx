@@ -269,7 +269,7 @@ const Contact = () => {
                   <FaGithub className="text-3xl" />
                 </a>
                 <a
-                  href="http://linkedin.com/in/saiful87"
+                  href="https://www.linkedin.com/in/reactjs-developer/"
                   className="text-gray-400 hover:text-cyan-600"
                 >
                   <FaLinkedin className="text-3xl" />

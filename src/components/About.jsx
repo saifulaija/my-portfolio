@@ -1,6 +1,6 @@
 import React from "react";
 import hero from "../assets/images/hero.png";
-import resume  from "../assets/Resume Of Saiful Islam (4).pdf"
+import resume  from "../assets/images/Resume-Of-Saiful Islam-Full-Stack-Developer (1).pdf"
 const About = () => {
   const info = [
     { text: "Years experience", count: "01" },

@@ -32,7 +32,7 @@ const Hero = () => {
             My Name is <span>Saiful Islam</span>
           </h1>
           <h4 className="md:text-[24px] text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-500">
-            Fullstack Developer || JavaScript Developer
+            MERN Developer || JavaScript Developer
           </h4>
           <p>
             As a dedicated MERN stack developer, I excel in creating dynamic web applications with MongoDB, Express.js, React, and Node.js. My goal is to craft high-quality, scalable solutions that meet client needs and deliver an outstanding user experience.
@@ -44,7 +44,7 @@ const Hero = () => {
             <a href="https://github.com/saifulaija" className="text-gray-600 hover:text-white cursor-pointer ">
               <FaGithubSquare></FaGithubSquare>
             </a>
-            <a href="http://linkedin.com/in/saiful87" className="text-gray-600 hover:text-white cursor-pointer ">
+            <a href="https://www.linkedin.com/in/reactjs-developer/" className="text-gray-600 hover:text-white cursor-pointer ">
               <FaLinkedin></FaLinkedin>
             </a>
             <a href="https://www.facebook.com/" className="text-gray-600 hover:text-white cursor-pointer ">
